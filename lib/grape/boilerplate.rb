@@ -1,8 +1,9 @@
-require "grape/boilerplate/version"
+require 'grape/boilerplate/version'
+require 'grape/boilerplate/path'
 
 module Grape
   module Boilerplate
-    class Error < StandardError; end
-    # Your code goes here...
   end
 end
+
+require_relative 'boilerplate/entities'
