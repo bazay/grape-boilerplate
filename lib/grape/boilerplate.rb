@@ -6,4 +6,5 @@ module Grape
   end
 end
 
+require_relative 'boilerplate/documentation'
 require_relative 'boilerplate/entities'
